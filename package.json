@@ -1,0 +1,17 @@
+{
+  "name": "typescript-review",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && node dist/index.js"
+  },
+  "dependencies": {
+    "uuid": "^14.0.2"
+  },
+  "devDependencies": {
+    "typescript": "^7.0.2"
+  },
+  "private": true
+}
